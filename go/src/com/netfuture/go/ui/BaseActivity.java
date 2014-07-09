@@ -17,7 +17,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 /**
- * @author 李洪江
+ * @author bslee
  * @description Activity基础类, 用于定制应用提示,进度交互对话框
  * 
  */
@@ -33,9 +33,13 @@ public class BaseActivity extends Activity {
 		};
 	};
 
+	BaseApplication app;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		app=(BaseApplication) getApplication();
+		app.activityStack.add(this);
 		// 进度提示对话框
 		initProgressDialog();
 	}
@@ -108,5 +112,6 @@ public class BaseActivity extends Activity {
 		super.onDestroy();
 		// 对话框销毁
 		pd.dismiss();
+		app.activityStack.remove(this);
 	}
 }

@@ -2,7 +2,7 @@ package com.netfuture.go.http;
 
 
 /**
- * @author 李洪江
+ * @author bslee
  * @description 响应处理类 对返回数据进行封装和处理
  * 
  */

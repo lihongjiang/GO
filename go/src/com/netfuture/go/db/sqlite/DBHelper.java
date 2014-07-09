@@ -5,7 +5,10 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
 import android.database.sqlite.SQLiteOpenHelper;
-
+/**
+ * @author bslee
+ * @description 数据库创建和升级
+ */
 public class DBHelper extends SQLiteOpenHelper {
 	
 	private static final String TRAFFIC_TABLE = "create table trafficstatus("

@@ -8,7 +8,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonPrimitive;
 
 /**
- * @author 李洪江
+ * @author bslee
  * @description 构建JsonObject对象
  * 
  */

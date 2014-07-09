@@ -2,7 +2,7 @@ package com.netfuture.go.http;
 
 
 /**
- * @author 李洪江
+ * @author bslee
  * @description 回调基础类 配合handler进行界面更新,下面两个方法在线程中执行
  * 
  */

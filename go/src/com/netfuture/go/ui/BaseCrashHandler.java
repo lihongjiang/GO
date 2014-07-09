@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 
 /**
- * @author 李洪江
+ * @author bslee
  * @description 在Application中统一捕获异常，保存到文件中下次再打开时上传
  * 
  */
@@ -121,7 +121,7 @@ public class BaseCrashHandler implements UncaughtExceptionHandler {
 				// 保存出错信息到文件
 				String fileName = "crash-" + new Date().getTime() + ".txt";
 				File file = new File(Environment.getExternalStorageDirectory()
-						+ "/yuxin/log");
+						+ "/go/log");
 				if (!file.exists()) {
 					file.mkdirs();
 				}

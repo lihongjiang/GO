@@ -7,7 +7,10 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import android.util.Log;
-
+/**
+ * @author bslee
+ * @description 数据库创建和升级
+ */
 public class TrafficDao extends BaseDao {
 
 	public TrafficDao(Context context) {

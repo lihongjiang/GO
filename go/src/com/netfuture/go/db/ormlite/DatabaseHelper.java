@@ -6,13 +6,14 @@ import com.j256.ormlite.android.apptools.OrmLiteSqliteOpenHelper;
 import com.j256.ormlite.support.ConnectionSource;
 
 /**
- * @author 李洪江
+ * @author bslee
  * @description 数据库创建和升级
  */
 public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 
 	private static final String DATABASE_NAME = "yuxin.db";
 	public static final int DATABASE_VERSION = 1;
+	//上下文
 	private Context context;
 
 	public DatabaseHelper(Context context) {
