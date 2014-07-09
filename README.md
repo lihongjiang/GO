@@ -14,28 +14,29 @@ GO
 
 * Json部分
 
-> * [Jackson](http://ormlite.com/ "OrmLite")
-> * [BSON](https://github.com/lihongjiang "OrmLite")
-> * [json-smart](https://github.com/lihongjiang "OrmLite")
-> * [fastjson](https://github.com/lihongjiang "OrmLite")
+> * [Jackson](http://ormlite.com/ "流行的json")
+> * [BSON](https://github.com/lihongjiang "json的变形金刚")
+> * [json-smart](https://github.com/lihongjiang "号称比原生json快2倍")
+> * [fastjson](https://github.com/lihongjiang "阿里巴巴的json神器")
 
 
 * ormlite部分
 
-> * [sqlCliper](https://github.com/lihongjiang "OrmLite")
+> * [sqlCliper](https://github.com/lihongjiang "sqlite加密神器")
 
 
 * 网络部分
 
-> * [volley框架](https://github.com/lihongjiang "OrmLite")
-> * [okhttp](https://github.com/lihongjiang/okhttp "OrmLite")
-> * [butterknife](https://github.com/lihongjiang "OrmLite")
-> * [universal-image-loader](http://ormlite.com/ "OrmLite")
-> * [retrofit](https://github.com/lihongjiang "OrmLite")
-> * [picasso](https://github.com/lihongjiang/picasso "OrmLite")
-> * [xUtils](https://github.com/wyouflf/xUtils "OrmLite")
-> * [ImageLoader](https://github.com/lihongjiang/ImageLoader "OrmLite")
-> * [AndroidAnnotations](https://github.com/lihongjiang/ImageLoader "OrmLite")
+> * [volley框架](https://github.com/lihongjiang "官方异步下载")
+> * [okhttp](https://github.com/lihongjiang/okhttp "http的升级版")
+> * [butterknife](https://github.com/lihongjiang "控件和事件的福音")
+> * [universal-image-loader](http://ormlite.com/ "图片下载")
+> * [retrofit](https://github.com/lihongjiang "控件和事件的福音")
+> * [picasso](https://github.com/lihongjiang/picasso "图片下载")
+> * [xUtils](https://github.com/wyouflf/xUtils "给力的android开源框架")
+> * [ImageLoader](https://github.com/lihongjiang/ImageLoader "图片下载")
+> * [AndroidAnnotations](https://github.com/lihongjiang/ImageLoader "官方注解开发包")
+> * [android-async-http](https://github.com/lihongjiang/android-async-http "最好用的异步框架哦")
 
 * 其他工具
 
