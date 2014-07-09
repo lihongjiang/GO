@@ -1,7 +1,7 @@
 package com.netfuture.go.http;
 
 /**
- * @author 李洪江
+ * @author bslee
  * @description 下载数据管理
  * 
  */

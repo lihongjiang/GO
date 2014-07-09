@@ -7,11 +7,9 @@ import com.j256.ormlite.field.DatabaseField;
 
 /**
  * @description	ID实体类
- * @author LHJ
- * @version 3.0.0
+ * @author bslee
  * 
  */
-
 
 public class IdEntity  implements Serializable {
 

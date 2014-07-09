@@ -3,7 +3,7 @@ package com.netfuture.go.utils;
 
 import android.util.Log;
 /**
- * @author 李洪江
+ * @author bslee
  * @description 应用调试管理
  * 
  */

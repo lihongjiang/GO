@@ -15,9 +15,8 @@ import java.io.InputStream;
 
 /**
  * @description GET请求管理工具类
- * @author li Hongjiang
- * @Date 2014-4-4
- * @since 3.0
+ * @author bslee
+
  */
 
 public class HttpGetUtils {

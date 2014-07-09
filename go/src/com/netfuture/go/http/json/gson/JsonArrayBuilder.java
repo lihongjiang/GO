@@ -7,7 +7,7 @@ import com.google.gson.JsonObject;
 
 
 /**
- * @author 李洪江
+ * @author bslee
  * @description 构建JsonArray对象
  * 
  */

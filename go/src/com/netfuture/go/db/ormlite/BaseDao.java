@@ -8,7 +8,7 @@ import com.j256.ormlite.dao.Dao;
 import java.sql.SQLException;
 
 /**
- * @author 李洪江
+ * @author bslee
  * @description 数据库操作类
  * 
  */

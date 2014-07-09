@@ -9,7 +9,7 @@ import com.j256.ormlite.android.apptools.OpenHelperManager;
 import com.netfuture.go.utils.LogUtils;
 
 /**
- * @author 李洪江
+ * @author bslee
  * @description 数据库事务操作类
  * 
  */

@@ -6,7 +6,7 @@ import com.netfuture.go.R;
 import com.netfuture.go.ui.BaseActivity;
 
 /**
- * @author 李洪江
+ * @author bslee
  * @description 主界面
  * 
  */

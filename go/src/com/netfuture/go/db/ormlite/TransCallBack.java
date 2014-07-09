@@ -1,6 +1,6 @@
 package com.netfuture.go.db.ormlite;
 /**
- * @author 李洪江
+ * @author bslee
  * @description 事务回调类
  * 
  */

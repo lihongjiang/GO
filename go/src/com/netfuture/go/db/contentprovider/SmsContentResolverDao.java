@@ -15,7 +15,7 @@ import android.os.Handler;
 /**
  * 短信数据库操作
  * 
- * @author Administrator
+ * @author bslee
  * 
  */
 public class SmsContentResolverDao {

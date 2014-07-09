@@ -7,8 +7,7 @@ import com.netfuture.go.utils.AppUtils;
 
 /**
  * @description异步任务管理类
- * @author LHJ
- * @version 3.0.0
+ * @author bslee
  * 
  */
 public class AsyncTaskManager {

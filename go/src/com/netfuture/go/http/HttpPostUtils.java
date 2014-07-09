@@ -22,9 +22,7 @@ import java.net.URI;
 
 /**
  * @description POST请求管理工具类
- * @author li Hongjiang
- * @Date 2014-4-4
- * @since 3.0
+ * @author bslee
  * 
  * @description 协议
  * @description 所有接口均基于http协议，上传、下载数据均为json格式， 所有接口均遵循以下规则：

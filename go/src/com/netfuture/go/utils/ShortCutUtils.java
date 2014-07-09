@@ -18,7 +18,7 @@ import android.net.Uri;
  * <uses-permission
  * android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />}
  * 
- * @author Administrator
+ * @author bslee
  * 
  */
 public class ShortCutUtils {

@@ -15,7 +15,7 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 
 /**
- * @author 李洪江
+ * @author bslee
  * @description app工具类
  * 
  */

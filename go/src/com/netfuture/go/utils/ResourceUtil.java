@@ -3,7 +3,7 @@ package com.netfuture.go.utils;
 import android.content.Context;
 
 /**
- * @author 李洪江
+ * @author bslee
  * @description 用于三方开发者,资源包和jar包分离导入
  * 
  */

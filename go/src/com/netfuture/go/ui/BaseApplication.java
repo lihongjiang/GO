@@ -14,7 +14,7 @@ import android.app.Application;
  * @description 在这里完成低内存的释放
  * @description 在这里捕获未抓住的异常
  * @description 用于应用配置,预加载处理
- * @author 李洪江
+ * @author bslee
  */
 
 public class BaseApplication extends Application {
