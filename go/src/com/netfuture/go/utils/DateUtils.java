@@ -12,6 +12,20 @@ public class DateUtils {
 	public static final String yyyyMMddHHmmss = "yyyy-MM-dd HH:mm:ss";
 	public static final String HHmmss = "HH:mm:ss";
 	public static final String hhmmss = "HH:mm:ss";
+	public static final String LOCALE_DATE_FORMAT = "yyyy年M月d日 HH:mm:ss";
+	public static final String DB_DATA_FORMAT = "yyyy-MM-DD HH:mm:ss";
+	public static final String NEWS_ITEM_DATE_FORMAT = "hh:mm M月d日 yyyy";
+
+	
+	public static String dateToString(Date date, String pattern)
+			throws Exception {
+		return new SimpleDateFormat(pattern).format(date);
+	}
+
+	public static Date stringToDate(String dateStr, String pattern)
+			throws Exception {
+		return new SimpleDateFormat(pattern).parse(dateStr);
+	}
 
 	/**
 	 * 将Date类型转换为日期字符串

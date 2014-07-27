@@ -12,6 +12,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Environment;
+import android.support.v4.content.FileProvider;
 
 public class FileUtils {
 	private static final String FILENAME_REGIX = "^[^\\/?\"*:<>\\]{1,255}$";
@@ -23,7 +24,36 @@ public class FileUtils {
 	 * @return
 	 */
 	public boolean deleteFile(File file) {
+
 		return file.delete();
+	}
+
+	/**
+	 * 递归删除文件和文件夹
+	 * 
+	 * @param file
+	 *            要删除的根目录
+	 */
+	public void DeleteFile(File file) {
+		if (file.exists() == false) {
+			return;
+		} else {
+			if (file.isFile()) {
+				file.delete();
+				return;
+			}
+			if (file.isDirectory()) {
+				File[] childFile = file.listFiles();
+				if (childFile == null || childFile.length == 0) {
+					file.delete();
+					return;
+				}
+				for (File f : childFile) {
+					DeleteFile(f);
+				}
+				file.delete();
+			}
+		}
 	}
 
 	/**
@@ -131,6 +161,7 @@ public class FileUtils {
 		}
 		return activity.getString(id);
 	}
+
 	/**
 	 * 用于递归查找文件夹下面的符合条件的文件
 	 * 
