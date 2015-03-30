@@ -37,6 +37,7 @@ GO
 > * [ImageLoader](https://github.com/lihongjiang/ImageLoader "图片下载")
 > * [AndroidAnnotations](https://github.com/lihongjiang/ImageLoader "官方注解开发包")
 > * [android-async-http](https://github.com/lihongjiang/android-async-http "最好用的异步框架哦")
+> * [android-async-http](https://github.com/lihongjiang/android-async-http "最好用的异步框架哦")
 
 * 其他工具
 
